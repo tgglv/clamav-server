@@ -6,8 +6,7 @@ Simple API for scanning zip archives with the use of ClamAV.
 
 ```bash
 # Run in project's root folder: 
-$ docker build -t clamav-server .
-$ docker run -d -p 9090:80 --name my-running-app clamav-server
+$ docker run -d -p 9090:80 --name my-clamav-server timurns/clamav-server:latest
 ```
 
 #### API Methods
